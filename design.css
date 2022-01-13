@@ -1,0 +1,12 @@
+.bread {
+    position: relative;
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    }
+
+img {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+}
