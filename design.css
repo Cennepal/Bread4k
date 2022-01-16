@@ -1,12 +1,33 @@
-.bread {
-    position: relative;
-    height:600px;
-    width: 100%;
-    overflow: hidden;
-    }
+.container {
+  height: 500px;
+  position: relative;
+}
+
+.containert {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centert {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 img {
-    width: 50%;
+    width: 80%;
     height: auto;
     overflow: hidden;
 }
