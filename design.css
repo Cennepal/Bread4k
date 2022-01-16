@@ -1,11 +1,20 @@
 .container {
   height: 500px;
   position: relative;
+
 }
 
 .containert {
   height: 200px;
   position: relative;
+  bottom: auto;
+
+}
+
+.centert h2 {
+
+  color: white;
+
 }
 
 .center {
@@ -30,4 +39,118 @@ img {
     width: 80%;
     height: auto;
     overflow: hidden;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+background-color: #111;
+
+}
+
+/* navbar stuff */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+
+  float: left;  
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(58, 9, 9);}
+
+ul.topnav li a.active {background-color: #7e0a0a;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #741616;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  font-family: Arial;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* variation for right */
+.centeredr {
+  font-family: Arial;
+  font-size: x-large;
+  color: white;
+  position: absolute;
+  top: 2%;
+  right: 43%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* variation for left*/
+.centeredl {
+  font-family: Arial;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centeredt {
+  font-family: Arial;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
 }
