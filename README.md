@@ -1,1 +1,2 @@
-No, back to bread
+No, back to bread  
+Todo: Make the site responsive somehow :C
